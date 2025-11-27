@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB = credentials('dockerhub-v2')
+        DOCKER_HUB = credentials('dockerhub-mb')
         IMAGE_NAME = 'MohamedBOULAALAM/jenkins_ci.cd'
     }
 
